@@ -29,46 +29,27 @@ export const metadata = {
     "B2B edtech",
     "course marketplace",
   ],
-  authors: [
-    { name: "YouthBees Team", url: "https://youthbee-next-r9d6.vercel.app" },
-  ],
-  generator: "Next.js",
-  applicationName: "YouthBees",
-  colorScheme: "light",
-  creator: "YouthBees Dev",
-  publisher: "YouthBees",
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
-  openGraph: {
-    title: "YouthBees | Start Your Career",
-    description:
-      "Explore verified courses, book 1:1 sessions, and launch your career through YouthBees.",
-    url: "https://youthbee-next-r9d6.vercel.app",
-    siteName: "YouthBees",
-    locale: "en_US",
-    type: "website",
-    images: [
-      {
-        url: "https://i.ibb.co/rRStPmSp/youth-Bee-Logo.png",
-        width: 1200,
-        height: 630,
-        alt: "YouthBees",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@YouthBees",
-    title: "YouthBees | Start Your Career",
-    description:
-      "Learn and grow with trusted EdTech partners. Affiliate, earn, and skill up with YouthBees.",
-    images: ["https://i.ibb.co/rRStPmSp/youth-Bee-Logo.png"],
-  },
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Career-ready courses, 1:1 mentoring, and affiliate opportunities. Start your growth journey with YouthBees."
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://youthbee-next-r9d6.vercel.app/" />
+        <link rel="icon" href="/favicon.ico" />
+        <title>YouthBees | Learn, Earn & Grow</title>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
