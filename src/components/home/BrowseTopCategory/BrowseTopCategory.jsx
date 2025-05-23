@@ -44,25 +44,27 @@ const BrowseTopCategory = () => {
         {categories?.map((category, index) => (
           <div
             key={index}
-            className="p-6 rounded-2xl relative flex items-center gap-3 bg-cover bg-center"
+            className="p-6 rounded-2xl relative flex items-center gap-3 bg-cover bg-center min-h-[120px] overflow-hidden"
             style={{
               backgroundImage: `url(${
-                backgroundImages[index % backgroundImages.length]
+                backgroundImages[index % backgroundImages.length].src
               })`,
             }}
           >
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60 rounded-2xl z-0"></div>
+
             <Image
               src={category.img}
-              className="w-12 rounded-lg"
+              className="w-12 rounded-lg z-10"
               alt={category.name}
             />
-            <div className="z-[999999]">
-              <p className="jost">{category.name}</p>
-              <p className="text-sm text-gray-400">
+
+            <div className="z-10">
+              <p className="font-semibold text-white">{category.name}</p>
+              <p className="text-sm text-gray-300">
                 {category.courses} Courses
               </p>
             </div>
-            <div className="absolute top-0 left-0 w-full h-full bg-[#00000080] opacity-45"></div>
           </div>
         ))}
       </div>
