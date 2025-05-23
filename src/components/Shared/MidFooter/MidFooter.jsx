@@ -1,6 +1,12 @@
 import Image from "next/image";
 import logo from "../../../../public/images/navbar/youthBeeLogo.png";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+
 
 const MidFooter = () => {
   return (
@@ -15,36 +21,11 @@ const MidFooter = () => {
             </p>
             <div className="flex mt-4 items-center">
               <div className="flex items-center gap-3">
-                <Image width="100" height="10"
-                  src="https://i.ibb.co/fzJfFfwQ/Social.jpg"
-                  className="w-10"
-                  loading="lazy"
-                  alt="Social 1"
-                />
-                <Image width="100" height="100"
-                  src="https://i.ibb.co/6JXShz0h/Social-4.jpg"
-                  className="w-10"
-                  loading="lazy"
-                  alt="Social 3"
-                />
-                <Image width="100" height="100"
-                  src="https://i.ibb.co/zLG3qDY/Social-3.jpg"
-                  className="w-10"
-                  loading="lazy"
-                  alt="Social 4"
-                />
-                <Image width="100" height="100"
-                  src="https://i.ibb.co/b4FgJV3/Social-1.jpg"
-                  className="w-10"
-                  loading="lazy"
-                  alt="Social 5"
-                />
-                <Image width="100" height="100"
-                  src="https://i.ibb.co/sdzydB3Y/Social-2.jpg"
-                  className="w-12 mt-2"
-                  loading="lazy"
-                  alt="Social 2"
-                />
+                <FaFacebookF className="text-white text-4xl p-2.5 bg-[#363B4766] hover:bg-[#F39200] cursor-pointer shadow-sm shadoww-[#CC522B80]" />
+                <FaInstagram className="text-white text-4xl p-2.5 bg-[#363B4766] cursor-pointer hover:bg-[#F39200] cursor-pointer shadow-sm shadoww-[#CC522B80]" />
+                <FaLinkedinIn className="text-white text-4xl p-2.5 bg-[#363B4766] cursor-pointer hover:bg-[#F39200] cursor-pointer shadow-sm shadoww-[#CC522B80]" />
+                <FaTwitter className="text-white text-4xl p-2.5 bg-[#363B4766] cursor-pointer hover:bg-[#F39200] cursor-pointer shadow-sm shadoww-[#CC522B80]" />
+                <FaYoutube className="text-white text-4xl p-2.5 bg-[#363B4766] cursor-pointer hover:bg-[#F39200] cursor-pointer shadow-sm shadoww-[#CC522B80]" />
               </div>
             </div>
           </div>
@@ -78,13 +59,17 @@ const MidFooter = () => {
               <div>
                 <p className="font-light">Download Our App</p>
                 <div className="flex flex-col gap-3 mt-6">
-                  <Image width="100" height="100"
+                  <Image
+                    width="100"
+                    height="100"
                     src="https://i.ibb.co/rG6tcbH7/Download-our-app-1.jpg"
                     className="w-36 rounded-lg"
                     loading="lazy"
                     alt="Download 1"
                   />
-                  <Image width="100" height="100"
+                  <Image
+                    width="100"
+                    height="100"
                     src="https://i.ibb.co/TxBhXHgn/Download-our-app.jpg"
                     className="w-36 rounded-lg"
                     loading="lazy"
