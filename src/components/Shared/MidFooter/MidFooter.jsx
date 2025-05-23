@@ -92,7 +92,6 @@ const MidFooter = () => {
                 </p>
 
                 <div className="flex flex-col gap-4 items-center">
-                  {/* App Store */}
                   <a
                     href="#"
                     className="w-48 bg-[#2D2F36] border border-[#3A3C44] hover:border-[#F39200] transition-all rounded-lg px-5 py-3 flex items-center gap-4"
@@ -105,8 +104,6 @@ const MidFooter = () => {
                       <p className="text-lg font-medium -mt-1">App Store</p>
                     </div>
                   </a>
-
-                  {/* Play Store */}
                   <a
                     href="#"
                     className="w-48 bg-[#2D2F36] border border-[#3A3C44] hover:border-[#F39200] transition-all rounded-lg px-5 py-3 flex items-center gap-4"
