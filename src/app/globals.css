@@ -1,2 +1,25 @@
 @import "tailwindcss";
 
+/* index.css */
+body {
+  @apply bg-[url('https://i.ibb.co/Y4RycccY/background.png')] bg-repeat-y bg-contain;
+}
+
+
+.gradient-text {
+  background: linear-gradient(90deg,#893A3A  0%, #230F0F 100%);
+  -webkit-background-clip: text;
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.jost {
+  font-family: 'Jost', sans-serif !important;
+}
+.mavenPro{
+  font-family: "Maven Pro", sans-serif !important;
+}
+
+.become-instructor {
+  background: linear-gradient(to right, #F39200, #744A0B);
+}
