@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* index.css */
 body {
   @apply bg-[url('https://i.ibb.co/Y4RycccY/background.png')] bg-repeat-y bg-contain;
 }
