@@ -29,13 +29,15 @@ export const metadata = {
     "B2B edtech",
     "course marketplace",
   ],
-  authors: [{ name: "YouthBees Team", url: "https://youthbee-next-r9d6.vercel.app" }],
+  authors: [
+    { name: "YouthBees Team", url: "https://youthbee-next-r9d6.vercel.app" },
+  ],
   generator: "Next.js",
   applicationName: "YouthBees",
-  colorScheme: "dark",
+  colorScheme: "light",
   creator: "YouthBees Dev",
   publisher: "YouthBees",
-  viewport: "width=device-width, initial-scale=1.0",
+  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
     title: "YouthBees | Start Your Career",

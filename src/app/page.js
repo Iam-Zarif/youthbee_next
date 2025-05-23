@@ -9,9 +9,15 @@ import TopInstructorOfMonth from "@/components/home/TopInstructorOfMonth/TopInst
 import WeParterWith from "@/components/home/WeParterWith/WeParterWith";
 import PrimaryContainer from "@/Containers/PrimaryContainer";
 
+export const metadata = {
+  title: "Home | YouthBees",
+  description:
+    "Explore top categories, instructors, and start learning with YouthBees today.",
+};
+
 export default function Home() {
   return (
-    <div className="">
+    <div className="w-full">
       <PrimaryContainer>
         <HomeCover />
         <BrowseTopCategory />
